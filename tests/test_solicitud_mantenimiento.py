@@ -6,8 +6,14 @@ Test de Opensur
 Resultado esperado :La Solicitud de Mantenimiento se envía
 al estado "En Revisión"
 """
+from pages.result_solicitud_mantenimiento import SolicitudMantenimientoResultPage
+from pages.solicitud_mantenimiento import SolicitudMantenimientoPage
 def test_solicitud_mantenimiento(browser):
+    init_page = SolicitudMantenimientoPage(browser)
+    result_page = SolicitudMantenimientoResultPage(browser)
+    PHRASE = "En Revisión"
     # Scenario: Crear solicitud de mantenimiento
+    init_page.load()
     # Given Se ingresa al menú: Activo / Ejecución de Mantenimiento / Solicitud de Mantenimiento
     #TODO
     #When Seleccionar el botón "+Nuevo"
@@ -20,4 +26,5 @@ def test_solicitud_mantenimiento(browser):
     #TODO
     #Then La Solicitud de Mantenimiento se crea correctamente
     #TODO
+    assert PHRASE in result_page.search(PHRASE)
     raise Exception("Test Incompleto")

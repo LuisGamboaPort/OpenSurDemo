@@ -1,20 +1,20 @@
 """
-id caso : 20
-Este modulo contiene la pagina web a testear
-la pagina objeto resultante
+id caso: 3
+Este modulo contiene la pagina resultado de la sección "Orden de mantenimiento"
+la pagina objeto
 """
 
-class CrearTareaResultPage:
+
+class OrdenDeMantenimientoResultPage:
     def __init__(self,browser):
         self.browser = browser
 
     def result_link_titles(self):
         #TODO
         return []
-    def crear_tarea_value(self):
+    def orden_generada(self):
         #TODO
         return""
-
     def title(self):
         #TODO
         return ""

@@ -1,16 +1,17 @@
 """
-id caso : 20
-Este modulo contiene la pagina web a testear
+id caso: 6
+Este modulo contiene la pagina de "Validar Orden Mantenimiento"
 la pagina objeto
 """
-
-class OpenSurMainPage:
+class ValidarOrdenPage:
     def __init__(self,browser):
         self.browser = browser
+
     def load(self):
         #TODO
-        pass
+        return""
+
     def menu(self):
         #TODO
-        pass
-
+        return""
+    

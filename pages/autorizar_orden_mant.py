@@ -1,19 +1,18 @@
 """
-id caso: 1
-Este modulo contiene la pagina de "Solicitud de Mantenimiento"
+id caso: 5
+Este modulo contiene la pagina Autorizar orden mantenimiento
 la pagina objeto
 """
-
-class SolicitudMantenimientoPage:
+class OpenSurAutorizarMantenimiento:
     def __init__(self,browser):
         self.browser = browser
+
     def load(self):
         #TODO
         pass
     def menu(self):
         #TODO
         pass
-    def formulario_mantenimiento(self):
+    def datos_faltantes(self):
         #TODO
         pass
-
