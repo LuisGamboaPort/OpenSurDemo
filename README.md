@@ -2,6 +2,8 @@
 # Descripción
 
 Este repositorio contiene el proyecto de demostración de pruebas automatizas de UI de OpenSur  . 
+La carpeta tests contiene los placholders hasta el momento
+y la carpeta pages contiene las clases o modulos referentes a las paginas web o menus necesarios para cada test de prueba
 
 # **Instrucciones de Configuración**
 
