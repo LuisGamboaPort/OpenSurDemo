@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c03f5597-12a9-4643-9b1f-798337c60348" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/crear_tarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/crear_tarea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/step_defs/test_crear_una_tarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_crear_una_tarea.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "LuisGamboaPort"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="efb96bc8-83b8-4c8d-86d9-8153ac3d62ae" />
+        <option name="url" value="https://github.com/LuisGamboaPort/OpenSurDemo.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,6 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests in test_crear_una_tarea.py.executor": "Run",
+    "Python.crear_tarea.executor": "Run",
     "Python.crear_una_tarea.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",

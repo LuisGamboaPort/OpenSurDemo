@@ -16,6 +16,7 @@ def test_crear_tarea(browser):
     # Scenario: Crear una nueva tarea
     # Given Se ingresa al menú: Activo / Configuración / Tareas
     init_page.load()
+    init_page.login()
 
     # When Seleccionar el botón "Nuevo+"
     init_page.click_nuevo_button()
