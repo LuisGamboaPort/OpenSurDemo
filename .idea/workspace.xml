@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c03f5597-12a9-4643-9b1f-798337c60348" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/pages/autorizar_orden_mant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/orden_mantenimiento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/result_autorizar_orden_mant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/result_orden_mantenimiento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/result_validar_orden_mantenimiento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/validar_orden_mantenimiento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/features/test_crear_una_tarea.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/step_defs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/step_defs/test_crear_una_tarea.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/crear_tarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/crear_tarea.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/result_crear_tarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/result_crear_tarea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/solicitud_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/solicitud_mantenimiento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_solicitud_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/result_solicitud_mantenimiento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_Orden_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Orden_mantenimiento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_autorizar_orden_mant.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_autorizar_orden_mant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_crear_una_tarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_crear_una_tarea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_solicitud_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_solicitud_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_Orden_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_Orden_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_aprobar_plan_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_aprobar_plan_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_autorizar_orden_mant.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_autorizar_orden_mant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_crear_activar_subtipo_mant.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_crear_activar_subtipo_mant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_crear_orden_mant_directamente.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_crear_orden_mant_directamente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_crear_plan_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_crear_plan_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_crear_una_tarea.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_ejecuccion_orden_mant.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_ejecuccion_orden_mant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_fw_.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_fw_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_solicitud_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_solicitud_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_validar_orden_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_validar_orden_mantenimiento.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +56,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.crear_una_tarea.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_crear_una_tarea.py.executor": "Run",
+    "Python.crear_una_tarea.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Samrc\OpenSur\tests\step_defs" />
       <recent name="C:\Users\Samrc\OpenSur\pages" />
       <recent name="C:\Users\Samrc\OpenSur" />
       <recent name="C:\Users\Samrc\OpenSur\tau-intro-selenium-py\tests" />

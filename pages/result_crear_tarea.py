@@ -1,20 +1,8 @@
-"""
-id caso : 20
-Este modulo contiene la pagina web a testear
-la pagina objeto resultante
-"""
-
 class CrearTareaResultPage:
-    def __init__(self,browser):
+    def __init__(self, browser):
         self.browser = browser
 
-    def result_link_titles(self):
-        #TODO
-        return []
-    def crear_tarea_value(self):
-        #TODO
-        return""
-
-    def title(self):
-        #TODO
-        return ""
+    def is_tarea_creada(self):
+        # verifica si la tarea ha sido creada satisfactoriamente
+        # Retorna True si la tarea es creada si no, False
+        pass
