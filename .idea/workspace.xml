@@ -4,18 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c03f5597-12a9-4643-9b1f-798337c60348" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_aprobar_plan_mantenimiento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_autorizar_orden_mant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_activar_subtipo_mant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_orden_mant_directamente.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_plan_mantenimiento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_ejecuccion_orden_mant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_validar_orden_mantenimiento.py" afterDir="false" />
+    <list default="true" id="c03f5597-12a9-4643-9b1f-798337c60348" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/crear_tarea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/result_crear_tarea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/result_solicitud_mantenimiento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/solicitud_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/open_sur_demo_tests" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_Orden_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_Orden_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_aprobar_plan_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_aprobar_plan_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_autorizar_orden_mant.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_autorizar_orden_mant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_activar_subtipo_mant.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_activar_subtipo_mant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_orden_mant_directamente.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_orden_mant_directamente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_plan_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_plan_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_una_tarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_crear_una_tarea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_ejecuccion_orden_mant.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_ejecuccion_orden_mant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_fw_.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_fw_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_solicitud_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_solicitud_mantenimiento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_validar_orden_mantenimiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_sur_demo_tests/tests/test_validar_orden_mantenimiento.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +42,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/open_sur_demo_tests" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,6 +85,15 @@
       <option name="presentableId" value="Default" />
       <updated>1712799206206</updated>
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <option name="closed" value="true" />
+      <created>1712815189746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712815189746</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
